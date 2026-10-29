@@ -14,3 +14,4 @@ Pour tester les clics, ouvre une page de test de CPS dans le navigateur (cherche
 - [ ] **R16** : lance une deuxième instance de l'app. Elle affiche l'avertissement « Touche F6 indisponible », et le bouton marche quand même.
 - [ ] **R20** : l'icône curseur + éclair apparaît dans la barre des tâches.
 - [ ] **R21** : change la vitesse et le bouton, ferme puis relance l'app. Les réglages sont conservés.
+- [ ] **R23** : après `./install.sh`, tape « auto » ou « clic » dans la recherche du menu Mint. L'app apparaît avec son icône et se lance. `./install.sh --remove` la retire du menu.

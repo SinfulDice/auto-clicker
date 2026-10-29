@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Auto-clicker
+GenericName=Clics automatiques
+Comment=Clique automatiquement (gauche ou droit, 1 à 1000 clics/s, F6 = Start/Stop)
+Exec=auto-clicker
+Icon=auto-clicker
+Terminal=false
+Categories=Utility;
+Keywords=clic;click;souris;mouse;auto;autoclicker;
+StartupWMClass=auto-clicker

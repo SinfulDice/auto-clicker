@@ -21,6 +21,15 @@ Un auto-clicker simple pour **Linux (X11)**, écrit en **Rust**, avec une petite
 cargo run --release
 ```
 
+## Installer (menu Mint)
+
+```sh
+./install.sh            # installe : l'app apparaît dans la recherche du menu
+./install.sh --remove   # désinstalle
+```
+
+Le script ne demande pas de mot de passe : tout est installé dans ton dossier personnel (`~/.cargo/bin`, `~/.local/share/...`).
+
 ## Tests
 
 ```sh

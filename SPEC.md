@@ -46,6 +46,9 @@ Statut : **validée** (2026-10-29)
 - **R21** : Le bouton et le CPS sont enregistrés dans `~/.config/auto-clicker/config.toml` dès qu'ils changent, et rechargés au lancement.
 - **R22** : Si le fichier est absent, illisible ou contient des valeurs invalides, on utilise les valeurs par défaut (ou on les corrige selon R3), **sans planter**.
 
+### Installation
+- **R23** : `./install.sh` installe l'app pour l'utilisateur (sans sudo) : le programme va dans `~/.cargo/bin`, l'icône dans le thème d'icônes, et une fiche `.desktop` dans `~/.local/share/applications`. L'app apparaît alors dans la recherche du menu Mint sous le nom « Auto-clicker » (mots-clés : clic, click, souris, autoclicker…). `./install.sh --remove` la désinstalle. *(ajoutée le 2026-10-29)*
+
 ## Tests
 
 - Les règles de logique (R1–R3, R7, R8, R12–R14, R17, R18, R21, R22) ont des tests automatiques (`cargo test`). Le nom de chaque test contient le numéro de la règle.
@@ -59,4 +62,4 @@ Statut : **validée** (2026-10-29)
 - Arrêt automatique après N clics ou une durée donnée.
 - Touche globale modifiable.
 - Support de Wayland.
-- Paquet `.deb` ou entrée dans le menu des applications.
+- Paquet `.deb`.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fond arrondi -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1f2937"/>
+  <!-- Curseur de souris -->
+  <path d="M14 8 L14 46 L23 37 L29 51 L35 48 L29 35 L41 35 Z"
+        fill="#ffffff" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Éclair jaune -->
+  <path d="M50 26 L38 44 L46 44 L42 58 L56 38 L48 38 L52 26 Z"
+        fill="#facc15" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+</svg>
